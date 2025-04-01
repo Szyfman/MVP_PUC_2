@@ -1,0 +1,25 @@
+# Ambiente virtual
+.venv/
+venv/
+ENV/
+env/
+
+# Arquivos de cache e temporários
+__pycache__/
+*.py[cod]
+*.so
+*.ipynb_checkpoints
+
+# Dados originais (peso alto)
+data/flights.csv
+
+# Configurações de IDE
+.vscode/
+.idea/
+
+# Arquivos do Jupyter
+*.nbconvert.ipynb
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
