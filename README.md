@@ -1,8 +1,6 @@
-# **Análise de Tendências da Opinião Pública em Relação ao MCU**
+# **Análise de Atrasos em Voos nos EUA**
 
-X 
-X PREENCHER COM DESCRIÇÃO DO PROJETO
-X
+Este projeto tem como objetivo construir um pipeline de dados na nuvem, utilizando a plataforma **Databricks Community Edition**, para investigar padrões, causas e impactos dos atrasos de voos nos Estados Unidos. Através de uma análise exploratória com uso de ferramentas como **SQL**, **Pandas** e **visualizações interativas**, buscamos responder perguntas de negócio relevantes, apoiando a tomada de decisão com base em dados reais.
 
 ---
 
@@ -10,8 +8,9 @@ X
 
 A estrutura do projeto está organizada da seguinte maneira:
 
-- **MVP_2_PUC_Daniel_Szyfman.ipynb**: Contém o notebook principal com todo o fluxo do projeto, incluindo análise exploratória, processamento, modelagem e avaliação.
+- **MVP_2_PUC_Daniel_Szyfman.ipynb**: Contém o notebook principal com todo o fluxo do projeto, incluindo coleta, tratamento, modelagem e análise exploratória.
 - **requirements.txt**: Lista todas as dependências necessárias para executar o projeto.
+
 ---
 
 ## **Como Executar**
@@ -25,7 +24,7 @@ cd MVP_PUC_2
 ### **2. Crie um ambiente virtual Python e ative-o**
 ```bash
 python -m venv venv
-source venv/bin/activate  # No Windows venv\Scripts\activate`
+venv\Scripts\activate  # No Windows
 ```
 
 ### **3. Instale as dependências**
@@ -33,8 +32,9 @@ source venv/bin/activate  # No Windows venv\Scripts\activate`
 pip install -r requirements.txt
 ```
 
-### **4. Abra o notebook localmente**
-- **Localmente**: Abra o arquivo com o Jupyter Notebook:
+### **4. Abra o notebook no Google Colab ou localmente**
+- **No Google Colab**: Faça o upload do notebook `MVP_2_PUC_Daniel_Szyfman.ipynb` para o ambiente do Colab e execute as células conforme necessário.
+- **Localmente**: Abra o arquivo com o Jupyter Notebook ou JupyterLab:
   ```bash
   jupyter notebook MVP_2_PUC_Daniel_Szyfman.ipynb
   ```
@@ -43,15 +43,17 @@ pip install -r requirements.txt
 
 ## **Resultados do Projeto**
 
+A análise exploratória permitiu identificar padrões relevantes sobre os atrasos de voos nos EUA, incluindo:
+- Companhias e aeroportos com maior incidência de atrasos;
+- Horários críticos ao longo do dia;
+- Tendências mensais e sazonais.
 
+As respostas obtidas serão discutidas com base nas perguntas de negócio propostas no início do projeto.
 
 ---
 
 ## **Aprendizados e Próximos Passos**
 
-- **Aprendizados:** 
-
-- **Próximos Passos:**
-  
+⚠️ Esta seção será revisada ao final do projeto, após a conclusão das análises e da autoavaliação.
 
 ---
