@@ -1,6 +1,6 @@
 # **Análise de Atrasos em Voos nos EUA**
 
-Este projeto tem como objetivo construir um pipeline de dados na nuvem, utilizando a plataforma **Databricks Community Edition**, para investigar padrões, causas e impactos dos atrasos de voos nos Estados Unidos. Através de uma análise exploratória com uso de ferramentas como **SQL**, **Pandas** e **visualizações interativas**, buscamos responder perguntas de negócio relevantes, apoiando a tomada de decisão com base em dados reais.
+Este projeto tem como objetivo construir um pipeline de dados na nuvem, utilizando a plataforma **Databricks Community Edition**, para investigar padrões, causas e impactos dos atrasos de voos nos Estados Unidos. Através de uma análise exploratória com uso de ferramentas como **Scikit-learn** **Pandas** e **Matplotlib**, buscamos responder perguntas de negócio relevantes, apoiando a tomada de decisão com base em dados reais.
 
 ---
 
@@ -32,9 +32,8 @@ venv\Scripts\activate  # No Windows
 pip install -r requirements.txt
 ```
 
-### **4. Abra o notebook no Google Colab ou localmente**
-- **No Google Colab**: Faça o upload do notebook `MVP_2_PUC_Daniel_Szyfman.ipynb` para o ambiente do Colab e execute as células conforme necessário.
-- **Localmente**: Abra o arquivo com o Jupyter Notebook ou JupyterLab:
+### **4. Abra o notebook localmente**
+- **Localmente**: Abra o arquivo com o Jupyter Notebook:
   ```bash
   jupyter notebook MVP_2_PUC_Daniel_Szyfman.ipynb
   ```
